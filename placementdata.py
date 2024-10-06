@@ -147,4 +147,3 @@ rt.fit(x_train,y_train)
 y_pred=rt.predict(x_test)
 print("accuracy",metrics.accuracy_score(y_test,y_pred))
 
-import streamlit as st
